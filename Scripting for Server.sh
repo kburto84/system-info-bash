@@ -8,5 +8,5 @@ lscpu | grep -E "Model Name|Architecture|CPU\(s\):"
 free -h
 ip -br addr show
 df -hT --local
-grep -i "error" /var/log/syslog | tail -n 
+grep -i "error" /var/log/syslog | tail -n 5
 
